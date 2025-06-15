@@ -2,12 +2,6 @@ import path from "path";
 import express from "express";
 import cors from "cors"; // ✅ OK
 import dotenv from "dotenv";
-<<<<<<< HEAD
-dotenv.config();
-console.log("MONGO_DB_URI:", process.env.MONGO_DB_URI);
-
-=======
->>>>>>> 7fe828e8187f7ae1ba9eebe92f507c0875716b59
 import cookieParser from "cookie-parser";
 import mongoose from "mongoose"; // ✅ OK
 import http from 'http'; // Import http module
