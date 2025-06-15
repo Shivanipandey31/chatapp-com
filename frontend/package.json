@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "chatapp-com": "file:..",
+=======
+>>>>>>> 7fe828e8187f7ae1ba9eebe92f507c0875716b59
     "cors": "^2.8.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
