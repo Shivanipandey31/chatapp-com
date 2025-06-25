@@ -12,7 +12,7 @@ import userRoutes from "./routes/user.routes.js";
 
 import connectToMongoDB from "./db/connectToMongoDB.js";
 
-dotenv.config();
+dotenv.config({ path: "./backend/.env" });
 
 const __dirname = path.resolve();
 // PORT should be assigned after calling dotenv.config() because we need to access the env variables. Didn't realize while recording the video. Sorry for the confusion.
@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000;
 
 const app = express();  // Initialize Express app
 
-const server = http.createServer(app); // Create an HTTP server
+const server = http.createServer(app);
 const io = new Server(server, {
 	cors: {
 	  origin: "http://localhost:3000",  // Allow localhost:3000 to connect
