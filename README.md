@@ -21,6 +21,8 @@ A modern real-time chat application built with the MERN stack, featuring authent
 
 ---
 
+<img width="1915" height="1028" alt="Image" src="https://github.com/user-attachments/assets/a7d81e11-0d13-4b1b-8f8e-ff702147bbbf" />
+
 ## 📁 Project Structure
 
 chatapp-com/
